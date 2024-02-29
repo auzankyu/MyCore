@@ -23,10 +23,11 @@ Pod::Spec.new do |spec|
   # spec.resource_bundles = {
   #   'Core' => ["Core/*.xcassets", "Core/**/*.xcassets"]
   # }
-  spec.dependency 'FirebaseAnalytics', '~> 10.11.0'
-  spec.dependency 'FirebaseCrashlytics', '~> 10.11.0'
-  spec.dependency 'FirebaseDynamicLinks', '~> 10.11.0'
-  spec.dependency 'FirebaseMessaging', '~> 10.11.0'
-  spec.dependency 'FirebaseAuth', '~> 10.11.0'
-  spec.dependency 'FirebaseFirestore', '~> 10.11.0'
+  spec.dependency 'SDWebImage'
+  # spec.dependency 'FirebaseAnalytics', '~> 10.11.0'
+  # spec.dependency 'FirebaseCrashlytics', '~> 10.11.0'
+  # spec.dependency 'FirebaseDynamicLinks', '~> 10.11.0'
+  # spec.dependency 'FirebaseMessaging', '~> 10.11.0'
+  # spec.dependency 'FirebaseAuth', '~> 10.11.0'
+  # spec.dependency 'FirebaseFirestore', '~> 10.11.0'
 end
