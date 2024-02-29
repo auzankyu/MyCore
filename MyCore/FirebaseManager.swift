@@ -6,12 +6,11 @@
 //
 
 import Foundation
-//import FirebaseCore
 
 public class FirebaseManager {
     public static let shared = FirebaseManager()
     
     public func start() {
-//        FirebaseApp.configure()
+        print("Firebase Manager")
     }
 }
